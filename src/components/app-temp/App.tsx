@@ -4,10 +4,10 @@ import css from "./App.module.css";
 
 import type { Votes, VoteType } from "../../types/votes";
 
-import CafeInfo from "../cafe-info/CafeInfo";
-import VoteOptions from "../vote-options/VoteOptions";
-import VoteStats from "../vote-stats/VoteStats";
-import Notification from "../notification/Notification";
+import CafeInfo from "../CafeInfo/CafeInfo";
+import VoteOptions from "../VoteOptions/VoteOptions";
+import VoteStats from "../VoteStats/VoteStats";
+import Notification from "../notification-temp/Notification";
 
 function App() {
   const [votes, setVotes] = useState<Votes>({
